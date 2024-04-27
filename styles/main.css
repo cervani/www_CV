@@ -6,12 +6,12 @@
 
 a {
     text-decoration: none;
-    color: white !important;
+    color: black !important;
     font-weight: 500;
 }
 
 a:hover {
-    color: #d33682 !important;
+    color: #da766e !important;
     text-decoration: none;
 }
 

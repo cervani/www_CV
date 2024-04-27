@@ -1,22 +1,29 @@
 from pathlib import Path
+
 import streamlit as st
 from PIL import Image
+
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "Tomczyk_CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
+
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV"
-PAGE_ICON = ":computer:"
-NAME = "Grzegorz Tomczyk"
-DESCRIPTION = "Data support lead"
-EMAIL = "tomczykgreg@outlook.com"
+PAGE_ICON = " "
+NAME = "Grzegorz Greg Tomczyk"
+DESCRIPTION = """
+Data Support Lead
+"""
+EMAIL = "Tomczykgreg@outlook.com"
 SOCIAL_MEDIA = {
+    
     "LinkedIn": "https://uk.linkedin.com/in/grzegorz-greg-tomczyk-122934167"
 }
+
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -53,7 +60,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- SKILLS ---
 st.subheader("Skills")
-st.write("Power BI, DAX, SAP, EXCEL (VLOOKUP, INDEX/MATCH, Pivot tables, nested if), VBA, SQL, Python (NumPy, Pandas, Matplotlib), Snowflake, AWS S3, ETL, Spotfire, IBM Maximo")
+st.write("Power BI, DAX, SAP, EXCEL (VLOOKUP, INDEX/MATCH, Pivot tables, nested if), VBA, SQL, Python (NumPy, Pandas, Matplotlib), Snowflake, AWS S3, ETL, Spotfire, IBM Maximo,Micro Focus ALM")
 
 # --- WORK HISTORY ---
 st.subheader("Work History")
@@ -62,7 +69,10 @@ st.write("---")
 # Job details
 jobs = [
     ("**Data Support Lead | Smith & Nephew plc**", "April 2022 - Present", """
-- Responsible for modelling data, modifying the database design as needed, updating the database, and ingesting data from various on-premise and cloud data sources like SQL and Snowflake in products certification project. Creating reports for weekly and monthly summaries. Improved Power BI reports and dashboards for commercial, regulatory, and data portfolio teams. Working with data engineers, business analysts, and directors on a system migration project. Responsible for data profiling, identifying discrepancies, and managing data transformation and mapping. Developed validation criteria and test cases. Assisted IT in the build, test, and deployment phases."""),
+- Modelling data, modifying the database design, and exporting and importing data from various on-premise and cloud data sources like SQL or Snowflake. Creating reports for weekly and monthly summaries. Improving Power BI reports and dashboards for commercial, regulatory, and data portfolio teams.
+Working with data engineers, business analysts, and directors on a migration project. Data profiling, identifying discrepancies, and managing data transformation and mapping. Developing validation criteria and test cases. Supporting IT in the build, test, and deployment phases.
+
+"""),
     ("**Data Analyst | SIEMENS**", "June 2019 – April 2022", """
 - Analysed rolling stock performance, energy consumption, usage statistics, and maintenance needs. Used time series analysis techniques to enhance operational effectiveness. Developed and maintained interactive dashboards and reports using Power BI."""),
     ("**Data specialist | Kingfisher plc**", "May 2018 - June 2019", """
