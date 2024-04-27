@@ -13,7 +13,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV"
-PAGE_ICON = " "
+PAGE_ICON = ":computer:"
 NAME = "Grzegorz Greg Tomczyk"
 DESCRIPTION = """
 Data Support Lead
