@@ -1,0 +1,7 @@
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(to right, #4f2991 0%, #7dc4ff 25%, #ffffff 30%, #ffffff 70%, #7dc4ff 75%, #4f2991 100%);
+    background-attachment: fixed;
+}
