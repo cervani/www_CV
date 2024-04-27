@@ -22,10 +22,7 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- LOAD CSS AND OTHER FILES ---
 with open(css_file) as f:
-    css = f.read()
-    st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-profile_pic = Image.open(profile_pic)
-
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:

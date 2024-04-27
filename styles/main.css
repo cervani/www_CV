@@ -1,5 +1,31 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
     background: linear-gradient(to right, #333333, #4d4d4d); /* Dark gray gradient */
     color: white; /* Sets text color to white */
-    font-family: 'Arial', sans-serif; /* Sets the default font */
+    font-family: 'Readex Pro', sans-serif; /* Specifies the font family */
 }
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
