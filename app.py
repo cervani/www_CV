@@ -53,15 +53,11 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-
-
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
-
-
 
 # --- SKILLS ---
 st.write('\n')
@@ -72,12 +68,10 @@ Power BI, DAX, SAP, EXCEL (VLOOKUP, INDEX/MATCH, Pivot tables, nested if), VBA, 
 """
 )
 
-
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
-
 # --- JOB 1
 st.write("**Data Support Lead  | Smith & Nephew plc**")
 st.write("April 2022 - - Present")
