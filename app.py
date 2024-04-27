@@ -69,7 +69,7 @@ st.write("---")
 # Job details
 jobs = [
     ("**Data Support Lead | Smith & Nephew plc**", "April 2022 - Present", """
-- Modelling data, modifying the database design, and exporting and importing data from various on-premise and cloud data sources like SQL or Snowflake. Creating reports for weekly and monthly summaries. Improving Power BI reports and dashboards for commercial, regulatory, and data portfolio teams.
+- Modelling data, modifying the database design, and exporting and importing data from various on-premise and cloud data sources like SQL or Snowflake. Creating reports for weekly and monthly summaries. Improving Power BI reports and dashboards for commercial, regulatory, and product data portfolio teams.
 Working with data engineers, business analysts, and directors on a migration project. Data profiling, identifying discrepancies, and managing data transformation and mapping. Developing validation criteria and test cases. Supporting IT in the build, test, and deployment phases.
 
 """),
