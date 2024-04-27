@@ -1,8 +1,12 @@
-
 [theme]
-base = "dark"
+# Primary accent color for interactive elements.
 primaryColor = "#d33682"
-backgroundColor = "#121212"  # This won't affect the gradient; it's the default background
-secondaryBackgroundColor = "#333333"
-textColor = "#ffffff"
-font = "sans serif"
+
+# Background color for the main content area.
+backgroundColor = "#645A5A"
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#586e75"
+
+# Color used for almost all text.
+textColor = "#fff"
