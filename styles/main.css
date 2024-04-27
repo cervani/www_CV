@@ -1,16 +1,5 @@
-.stApp {
-    margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
-    background: linear-gradient(to right, #4f2991 0%, #7dc4ff 25%, #ffffff 30%, #ffffff 70%, #7dc4ff 75%, #4f2991 100%);
-    background-attachment: fixed;
-    color: white; /* Default text color set to white */
-}
-
-.job-description {
-    background: linear-gradient(to bottom, #4f2991, #7dc4ff); /* Shiny gradient background */
-    color: white; /* White text for job descriptions */
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 0;
+body {
+    background: linear-gradient(to right, #333333, #4d4d4d); /* Dark gray gradient */
+    color: white; /* Ensure text color is white for readability */
+    font-family: 'Arial', sans-serif; /* Set a default font */
 }
