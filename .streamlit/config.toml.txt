@@ -1,8 +1,8 @@
 
 [theme]
-base="dark"
-primaryColor="#d33682"
-backgroundColor="#121212"
-secondaryBackgroundColor="#333333"
-textColor="#ffffff"
-font="sans serif"
+base = "dark"
+primaryColor = "#d33682"
+backgroundColor = "#121212"  # This won't affect the gradient; it's the default background
+secondaryBackgroundColor = "#333333"
+textColor = "#ffffff"
+font = "sans serif"
