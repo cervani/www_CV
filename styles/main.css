@@ -1,5 +1,5 @@
 body {
     background: linear-gradient(to right, #333333, #4d4d4d); /* Dark gray gradient */
-    color: white; /* Ensure text color is white for readability */
-    font-family: 'Arial', sans-serif; /* Set a default font */
+    color: white; /* Sets text color to white */
+    font-family: 'Arial', sans-serif; /* Sets the default font */
 }
